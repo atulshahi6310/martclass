@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Course - Mart Education</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <div class="logo">Mart Education</div>
+            <div class="hamburger" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="../index.html#home">Home</a></li>
+                <li><a href="../index.html#about">About</a></li>
+                <li><a href="../index.html#courses">Courses</a></li>
+                <li><a href="../index.html#features">Features</a></li>
+                <li><a href="../index.html#contact">Contact</a></li>
+                <li><a href="join.html" class="join-course-btn">Join Course</a></li>
+                <li><a href="../index.html#signup" class="signup-btn">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Join Course Section -->
+    <section class="join-course">
+        <div class="join-course-content">
+            <h1>Join a Course</h1>
+            <p>Fill in the form below to enroll in a course and start your learning journey with Mart Education!</p>
+
+            <form class="join-course-form">
+                <div class="form-group">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="course">Select Course:</label>
+                    <select id="course" name="course" required>
+                        <option value="">Choose a course...</option>
+                        <option value="Web Development">Web Development</option>
+                        <option value="Data Science">Data Science</option>
+                        <option value="Digital Marketing">Digital Marketing</option>
+                        <option value="Graphic Design">Graphic Design</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="join-btn">Join Now</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Mart Education. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="../scripts.js"></script>
+</body>
+</html>
+
+
